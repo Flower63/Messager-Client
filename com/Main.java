@@ -29,7 +29,7 @@ public class Main extends Application {
     private static String userName;
     private static final String DATE_PATTERN = "dd.MM.yyyy_hh:mm:ss";
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern(DATE_PATTERN);
-    private String ipAddress = "31.43.139.22";
+    private String ipAddress = "192.168.0.101";
 
     public static boolean isRunning = true;
 
